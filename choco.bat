@@ -21,26 +21,78 @@ IF "%1" == "chocoisinstalled" (
 	echo ************************ 
 	echo USING CHOCO TO INSTALL PACKAGES
 	echo ************************ 
+	
+	:: editors
+	%choco% install vim -y
+	%choco% install geany -y
+	%choco% install vscode -y
+	%choco% install notepadplusplus -y
+	%choco% install pycharm-community -y
 
-	%choco% install googlechrome -y
-	%choco% install googledrive -y
+	:: browser
+	%choco% install chromium -y
+	%choco% install firefox -y
+	%choco% install tor-browser -y
 
+	:: dev
 	%choco% install git -y
 	%choco% install sourcetree -y
-	%choco% install sublimetext3 -y
+	%choco% install mysql.workbench -y
+	%choco% install terminus -y
+	%choco% install runinbash -y
+	%choco% install vagrant -y
+	%choco% install wsl -y
+	%choco% install wsl-ubuntu-1804 -y
+	%choco% install docker-desktop -y
 
-	%choco% install 7zip.install -y
-	%choco% install vlc -y
-	%choco% install glip -y
-	%choco% install spotify -y --ignore-checksum 
-	REM Spotify has some problems with checksum. Let's ignore them 
-	%choco% install steam -y
+	:: connectivity
+	%choco% install citrix-receiver -y
+	%choco% install thunderbird -y
+	%choco% install filezilla -y
+	%choco% install openssh -y
+	%choco% install wireshark -y
 	
+	:: tools
+	%choco% install 7zip.install -y
 	%choco% install treesizefree -y
-	%choco% install paint.net -y
-	%choco% install audacity -y
-	%choco% install gitkraken -y
 	%choco% install everything -y
+	%choco% install tomboy -y
+	%choco% install qownnotes -y
+	%choco% install gpg4win -y
+	%choco% install foxitreader -y
+	%choco% install logitech-options -y
+	%choco% install ditto -y
+
+	
+
+	:: multimedia
+	%choco% install vlc -y
+	%choco% install opencodecs -y
+	%choco% install foobar2000 -y
+	%choco% install audacity -y
+	%choco% install handbrake.install -y
+	:: %choco% install kdenlive -y
+	:: %choco% install obs -y
+
+	:: games
+	%choco% install steam -y
+	%choco% install goggalaxy -y
+	%choco% install mumble -y
+	
+	:: graphics
+	%choco% install paint.net -y
+	%choco% install gimp -y
+	%choco% install irfanview -y
+
+	:: office
+	%choco% install libreoffice-fresh -y
+	%choco% install kmymoney -y
+
+	:: chat
+	%choco% install skype -y
+	%choco% install wire -y
+	%choco% install telegram -y
+	
 
 	echo.
 	echo.
