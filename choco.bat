@@ -42,6 +42,7 @@ IF "%1" == "chocoisinstalled" (
 	%choco% install wsl -y
 	%choco% install wsl-ubuntu-1804 -y
 	%choco% install virtualbox -y
+	%choco% install wsltty -y
 
 	:: connectivity
 	%choco% install citrix-receiver -y
@@ -55,7 +56,6 @@ IF "%1" == "chocoisinstalled" (
 	%choco% install treesizefree -y
 	%choco% install everything -y
 	%choco% install tomboy -y
-	%choco% install qownnotes -y
 	%choco% install gpg4win -y
 	%choco% install foxitreader -y
 	%choco% install logitech-options -y
