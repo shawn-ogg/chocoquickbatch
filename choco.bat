@@ -27,7 +27,6 @@ IF "%1" == "chocoisinstalled" (
 	%choco% install geany -y
 	%choco% install vscode -y
 	%choco% install notepadplusplus -y
-	%choco% install pycharm-community -y
 
 	:: browser
 	%choco% install chromium -y
@@ -38,12 +37,11 @@ IF "%1" == "chocoisinstalled" (
 	%choco% install git -y
 	%choco% install sourcetree -y
 	%choco% install mysql.workbench -y
-	%choco% install terminus -y
 	%choco% install runinbash -y
 	%choco% install vagrant -y
 	%choco% install wsl -y
 	%choco% install wsl-ubuntu-1804 -y
-	%choco% install docker-desktop -y
+	%choco% install virtualbox -y
 
 	:: connectivity
 	%choco% install citrix-receiver -y
@@ -61,9 +59,7 @@ IF "%1" == "chocoisinstalled" (
 	%choco% install gpg4win -y
 	%choco% install foxitreader -y
 	%choco% install logitech-options -y
-	%choco% install ditto -y
-
-	
+	%choco% install ditto -y	
 
 	:: multimedia
 	%choco% install vlc -y
