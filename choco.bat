@@ -59,7 +59,8 @@ IF "%1" == "chocoisinstalled" (
 	%choco% install gpg4win -y
 	%choco% install foxitreader -y
 	%choco% install logitech-options -y
-	%choco% install ditto -y	
+	%choco% install ditto -y
+	%choco% install rufus -y
 
 	:: multimedia
 	%choco% install vlc -y
